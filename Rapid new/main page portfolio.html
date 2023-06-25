@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>main page portfolio</title>
+  <style>
+    .thumbnail {
+      display: inline-block;
+      margin: 10px;
+    }
+    .thumbnail img {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .thumbnail img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+  <script>
+    function openNewPage(url) {
+      window.open(url, '_blank');
+    }
+    function downloadFile(url) {
+      var link = document.createElement('a');
+      link.href = url;
+      link.download = '';
+      link.click();
+    }
+  </script>
+</head>
+<body>
+  <h1>Thumbnail Gallery</h1>
+  <!-- image 1 -->
+  <div class="thumbnail">
+    <img src="thumbnail1.jpg" alt="Thumbnail 1" onclick="openNewPage('trip2.html');" >
+  </div>
+  <!-- image 2 -->
+  <div class="thumbnail">
+    <img src="thumbnail2.jpg" alt="Thumbnail 2" onclick="openNewPage('trip2.html');" >
+  </div>
+  <!-- image 3 -->
+  
+  <!-- Add more thumbnail divs as needed -->
+  <!-- jab tu companies add krega tba yaha pe image dalna before body closure -->
+</body>
+</html>
+<html>
+<head>
+
+  <style>
+    .thumbnail {
+      display: inline-block;
+      margin: 10px;
+    }
+    .thumbnail img {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    function openNewPage(url) {
+      window.open(url, '_blank');
+    }
+    function downloadFile(url) {
+      var link = document.createElement('a');
+      link.href = url;
+      link.download = '';
+      link.click();
+    }
+  </script>
+</head>
+
+</html>
