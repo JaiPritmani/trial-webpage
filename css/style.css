@@ -797,7 +797,9 @@ h6 {
 #portfolio {
   padding: 60px 0;
 }
-
+.show:hover {
+  transform: scale(1.2);
+}
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
@@ -1268,7 +1270,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  padding: 0 0 30px 0;
+  padding: 190px 0 150px 0;
   font-size: 14px;
   background: #fff;
 }

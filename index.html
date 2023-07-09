@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Jai Portfolio</title>
+    <title>Jai Pritmani</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -56,9 +56,11 @@
         <nav class="main-nav float-right d-none d-lg-block">
           <ul>
             <li class="active"><a href="#intro">Home</a></li>
-            <li><a href="#about">About Me</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#services">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#footer">Connect </a></li>
+
             <!-- <li><a href="#team">Team</a></li> -->
 
             <!-- this drill down you can use in future -->
@@ -81,7 +83,7 @@
                 <li><a href="#">Drop Down 5</a></li>
               </ul>
             </li> -->
-            <li><a href="#footer">Connect </a></li>
+
           </ul>
         </nav>
         <!-- .main-nav -->
@@ -97,7 +99,7 @@
         <div class="row justify-content-center align-self-center mtop-50">
           <div class="col-md-6 intro-info order-md-first order-last">
             <h2>Hi 👋 <br />I'm Jai Pritmani</h2>
-            <h2><span>CFA</span></h2>
+            <h6><span>A dynamic finance professional, exploring narratives behind numbers, driven by innovation and technology...</span></h6>
             <div>
               <a href="#about" class="btn-get-started scrollto">Get Started</a>
             </div>
@@ -123,13 +125,13 @@
                 <img src="img/me.jpeg" alt="" />
               </div>
               <div>
-                <a href="#about" class="cv-btn scrollto">Download CV</a>
+                <a class="cv-btn scrollto" href="./pdf/jaiKumarPritmaniCV.pdf" download="jaiKumarPritmaniCV">Download CV</a>
               </div>
             </div>
 
             <div class="col-lg-7 col-md-6">
               <div class="about-content">
-                <h2>About Me</h2>
+                <h2>About </h2>
                 <!-- <h3>
                   Odio sed id eos et laboriosam consequatur eos earum soluta.
                 </h3> -->
@@ -186,8 +188,8 @@
                 <p class="description">
                   <p>Lookups, Index & Match</p>
                   <p>Macros & VBA</p>
-      <p>PivotTables & PivotCharts</p>
-      <p>Statistics & Financial functions</p>
+                  <p>PivotTables & PivotCharts</p>
+                  <p>Statistics & Financial functions</p>
                 </p>
               </div>
             </div>
@@ -270,8 +272,8 @@
               data-wow-duration="1.4s"
             >
               <div class="box">
-                <img class="skill-icon" src="img/python.png" alt="" />
-                <h4 class="title"><a href="">Python</a></h4>
+                <img class="skill-icon" src="img/compliance.png" alt="" />
+                <h4 class="title"><a href="">Compliance</a></h4>
                 <p class="description">
                   <p>Xlsx Writer</p>
                   <p>NumPy & Pandas</p>
@@ -352,7 +354,7 @@
               </div>
             </div>
           </div>
-        </div> --> -->
+        </div> -->
         <!-- here you may add nos of articles, sheets or projects  -->
         <!-- <div class="container">
         <div class="row counters">
@@ -381,7 +383,6 @@
 
       </div> -->
       </section>
-
       <!--==========================
       Portfolio Section
     ============================-->
@@ -395,28 +396,34 @@
             <div class="col-lg-12">
               <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">Visual Dashboards</li>
-                <li data-filter=".filter-card">Articles</li>
-                <li data-filter=".filter-web">Equity Valuation</li>
+                <li data-filter=".filter-equity">Equity Valuation</li>
+                <li data-filter=".filter-article">Articles</li>
+                <li data-filter=".filter-visual">Visual Dashboards</li>
               </ul>
             </div>
           </div>
 <!-- portfolio title and heads -->
+<!-- dekh teko agar image ko section se link krna h to use words filter k baad wale to navigate  -->
+
+
           <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+
+            <!-- image 1 starts -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-equity">
               <div class="portfolio-wrap">
                 <img
                   src="img/portfolio/dmart.jpg"
                   class="img-fluid image-size"
+
                   alt=""
                 />
 
                 <div class="portfolio-info">
-                  <h4><a href="#">Article One</a></h4>
-                  <p>App</p>
+                  <h4><a href="#">Equity Research</a></h4>
+
                   <div>
                     <a
-                      href="./articles/articleone.html"
+                      href="./dmart.html"
                       target="blank"
                       class="link-details"
                       title="More Details"
@@ -426,9 +433,10 @@
                 </div>
               </div>
             </div>
+<!-- image 1 ends -->
 
             <div
-              class="col-lg-4 col-md-6 portfolio-item filter-web"
+              class="col-lg-4 col-md-6 portfolio-item filter-visual"
               data-wow-delay="0.1s"
             >
               <div class="portfolio-wrap">
@@ -441,7 +449,7 @@
                   <h4><a href="#">Web 3</a></h4>
                   <p>Web</p>
                   <div>
-                    <a href="./projectOne.html" class="link-details" title="More Details"
+                    <a href="./dmart.html" class="link-details" title="More Details"
                       ><i class="ion ion-android-open"></i
                     ></a>
                   </div>
@@ -652,75 +660,6 @@
               </div>
             </li>
 
-            <li>
-              <a data-toggle="collapse" href="#faq3" class="collapsed"
-                >Dolor sit amet consectetur adipiscing elit pellentesque
-                habitant morbi? <i class="ion-android-remove"></i
-              ></a>
-              <div id="faq3" class="collapse" data-parent="#faq-list">
-                <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                  sagittis orci. Faucibus pulvinar elementum integer enim. Sem
-                  nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                  pellentesque eu tincidunt. Lectus urna duis convallis
-                  convallis tellus. Urna molestie at elementum eu facilisis sed
-                  odio morbi quis
-                </p>
-                <h6> <a class="link-details" href="./articles/articleone.html"> Read the complete article </a></h6>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq4" class="collapsed"
-                >Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                <i class="ion-android-remove"></i
-              ></a>
-              <div id="faq4" class="collapse" data-parent="#faq-list">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque
-                  habitant morbi. Id interdum velit laoreet id donec ultrices.
-                  Fringilla phasellus faucibus scelerisque eleifend donec
-                  pretium. Est pellentesque elit ullamcorper dignissim. Mauris
-                  ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
-                <h6> <a class="link-details" href="./articles/articleone.html"> Read the complete article </a></h6>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq5" class="collapsed"
-                >Tempus quam pellentesque nec nam aliquam sem et tortor
-                consequat? <i class="ion-android-remove"></i
-              ></a>
-              <div id="faq5" class="collapse" data-parent="#faq-list">
-                <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo.
-                  Dignissim suspendisse in est ante in. Nunc vel risus commodo
-                  viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
-                  bibendum est. Purus gravida quis blandit turpis cursus in
-                </p>
-                <h6> <a class="link-details" href="./articles/articleone.html"> Read the complete article </a></h6>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq6" class="collapsed"
-                >Tortor vitae purus faucibus ornare. Varius vel pharetra vel
-                turpis nunc eget lorem dolor? <i class="ion-android-remove"></i
-              ></a>
-              <div id="faq6" class="collapse" data-parent="#faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
-                  vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
-                  nullam non nisi est sit amet. Turpis nunc eget lorem dolor
-                  sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                  Pellentesque diam volutpat commodo sed egestas egestas
-                  fringilla phasellus faucibus. Nibh tellus molestie nunc non
-                  blandit massa enim nec.
-                </p>
-                <h6> <a class="link-details" href="./articles/articleone.html"> Read the complete article </a></h6>
-              </div>
-            </li>
           </ul>
         </div>
       </section>
@@ -729,7 +668,8 @@
     <!--==========================
     Footer
   ============================-->
-    <footer id="footer" class="section-bg">
+    <section id="footer" class="section-bg">
+    <footer>
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -737,18 +677,18 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="footer-links">
-                    <h4>Useful Links</h4>
+                    <!-- <h4>Useful Links</h4>
                     <ul>
                       <li><a href="#">Home</a></li>
                       <li><a href="#">About Me</a></li>
                       <li><a href="#">Skills</a></li>
-                      <!-- <li><a href="#">Terms of service</a></li>
+                      <!<li><a href="#">Terms of service</a></li>
                       <li><a href="#">Privacy policy</a></li> -->
-                    </ul>
+                    <!-- </ul> -->
                   </div>
 
                   <div class="footer-links">
-                    <h4>Contact </h4>
+                    <h4>Connect </h4>
                     <!-- <p>
                       A108 Adam Street <br />
                       New York, NY 535022<br />
@@ -762,9 +702,9 @@
                     <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
-                    <a href="#" class="linkedin margin-btm"
+                    <a href="https://www.linkedin.com/in/jai-pritmani/" target="_blank" class="linkedin margin-btm"
                       ><i class="fa fa-linkedin"></i
-                         onclick="openNewPage('trip2.html');"
+                         onclick="openNewPage('www.linkedin.com/in/jai-pritmani/');"
 
                     ></a>
                   </div>
@@ -854,6 +794,7 @@
         </div>
       </div>
     </footer>
+    <section/>
     <!-- #footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
